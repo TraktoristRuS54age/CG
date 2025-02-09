@@ -1,2 +1,2 @@
 # CG
-Labs work to Computer Graphics
+Labs work on computer graphics
