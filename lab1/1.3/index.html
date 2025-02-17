@@ -1,1 +1,28 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Drawing</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <div>
+        <label for="x0">x0:</label>
+        <input type="number" id="x0" value="50">
+        <label for="y0">y0:</label>
+        <input type="number" id="y0" value="50">
+        <label for="x1">x1:</label>
+        <input type="number" id="x1" value="200">
+        <label for="y1">y1:</label>
+        <input type="number" id="y1" value="200">
+        <button id="drawButton">Draw Line</button>
+    </div>    
+    <script src="main.js"></script>
+</body>
+</html>
